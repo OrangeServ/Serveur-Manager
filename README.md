@@ -8,6 +8,10 @@ Installer PyInstaller 🛠️
 Ouvrez PowerShell et tapez la commande suivante :
 pip install pyinstaller
 
+Installez les dépendance néssecaire  🛠️:
+Flask : pip install Flask
+Tkinter: Inclu dans python sinon : pip install tkinter
+
 Créer l’exécutable 🖥️
 Dirigez-vous vers le répertoire où se trouve server.py (par exemple, votre bureau) et tapez :
 pyinstaller --onefile --windowed server.py
